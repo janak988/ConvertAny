@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_welcome"
+    android:orientation="vertical"
+    tools:context=".Main2Activity">
+
+
+    <Button
+        android:id="@+id/temp"
+        android:layout_width="312dp"
+        android:layout_height="62dp"
+        android:layout_gravity="center"
+        android:elevation="15dp"
+        android:textSize="29dp"
+        android:textColor="#099fff"
+        android:textAlignment="gravity"
+        android:layout_marginTop="250dp"
+        android:background="@drawable/button"
+        android:text="CONVERT TEMP" />
+
+    <Button
+        android:id="@+id/simp"
+        android:background="@drawable/button"
+        android:layout_width="312dp"
+        android:layout_height="62dp"
+        android:textColor="#099fff"
+        android:textSize="29dp"
+        android:textAlignment="gravity"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="SIMPLE INTEREST" />
+
+
+    <Button
+        android:id="@+id/units"
+        android:background="@drawable/button"
+        android:layout_width="312dp"
+        android:layout_height="62dp"
+        android:textColor="#099fff"
+        android:textSize="29dp"
+        android:textAlignment="gravity"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="UNIT CONVERTER" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="200dp"
+        android:fontFamily="serif-monospace"
+        android:text="Developed By Janak Sapkota"
+        android:textColor="#ffff" />
+
+</LinearLayout>
